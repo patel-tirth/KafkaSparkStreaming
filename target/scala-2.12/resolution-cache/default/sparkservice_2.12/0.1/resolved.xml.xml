@@ -4,7 +4,7 @@
 		module="sparkservice_2.12"
 		revision="0.1"
 		status="integration"
-		publication="20211205235527"
+		publication="20211206025051"
 	>
 		<description>
 		SparkService
@@ -32,9 +32,11 @@
 	<dependencies>
 		<dependency org="org.scala-lang" name="scala-compiler" rev="2.12.8" conf="scala-tool->default,optional(default)"/>
 		<dependency org="org.scala-lang" name="scala-library" rev="2.12.8" conf="scala-tool->default,optional(default);compile->default(compile)"/>
+		<dependency org="com.typesafe.akka" name="akka-stream-kafka_2.12" rev="2.1.1" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-core_2.12" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.kafka" name="kafka-clients" rev="0.8.2.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-streaming_2.12" rev="2.4.0" conf="compile->default(compile)"/>
 		<dependency org="org.apache.spark" name="spark-streaming-kafka-0-10_2.12" rev="2.4.0" conf="compile->default(compile)"/>
+		<dependency org="jp.co.bizreach" name="aws-ses-scala_2.12" rev="0.0.3" conf="compile->default(compile)"/>
 	</dependencies>
 </ivy-module>

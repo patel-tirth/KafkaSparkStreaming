@@ -1,9 +1,1 @@
-[0m[[0m[0minfo[0m] [0m[0mPackaging /Users/tirth/Fall2021/CS441/SparkService/target/scala-2.12/sparkservice_2.12-0.1.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SparkService$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tirth/Fall2021/CS441/SparkService/target/scala-2.12/classes/SparkService$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	application.conf[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tirth/Fall2021/CS441/SparkService/target/scala-2.12/classes/application.conf[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SparkService.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /Users/tirth/Fall2021/CS441/SparkService/target/scala-2.12/classes/SparkService.class[0m
-[0m[[0m[0minfo[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /Users/tirth/Fall2021/CS441/SparkService/target/scala-2.12/sparkservice_2.12-0.1.jar[0m

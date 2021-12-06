@@ -25,8 +25,14 @@ libraryDependencies ++= Seq(
 //  "com.github.mifmif" % "generex" % generexVersion,
 //  "org.apache.spark" %% "spark-sql" % "3.2.0" ,
 //  "org.apache.spark" %% "spark-sql-kafka-0-10" % "3.2.0" % Test,
+  "com.typesafe.akka"  %% "akka-stream-kafka" % "2.1.1",
+//  "com.amazonaws" % "aws-java-sdk-ses" % "1.12.96",
   "org.apache.spark" %% "spark-core" % "2.4.0",
   "org.apache.kafka" % "kafka-clients" % "0.8.2.0",
   "org.apache.spark" %% "spark-streaming" % "2.4.0" ,
   "org.apache.spark" %% "spark-streaming-kafka-0-10" % "2.4.0",
+  "jp.co.bizreach" %% "aws-ses-scala" % "0.0.3"
+//  "com.fasterxml.jackson.module" %% "jackson-module-scala" % "2.6.7.1",
+//  "com.fasterxml.jackson.core" % "jackson-databind" % "2.6.7",
+//  "com.fasterxml.jackson.core" % "jackson-core" % "2.6.7"
 )
