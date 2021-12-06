@@ -7,7 +7,7 @@
 		revision="0.1"
 		conf="compile"
 		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
-		date="20211205232532"/>
+		date="20211205235527"/>
 	<dependencies>
 		<module organisation="org.apache.spark" name="spark-streaming-kafka-0-10_2.12">
 			<revision name="2.4.0" status="release" pubdate="20181029025743" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://spark.apache.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="133">
