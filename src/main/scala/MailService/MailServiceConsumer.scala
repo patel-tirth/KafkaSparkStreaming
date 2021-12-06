@@ -17,6 +17,7 @@ object  MailServiceConsumer extends App {
   val consumerConfig = config.getConfig("akka.kafka.consumer")
   val consumerSettings = ConsumerSettings(consumerConfig, new StringDeserializer, new StringDeserializer)
 
+  // Consumer to subscribe to kakfa topic and send email to stakeholders using aws ses
   val consume = Consumer
     .plainSource(consumerSettings, Subscriptions.topics("SparkDataTopic"))
     .runWith(

@@ -5,6 +5,7 @@ import org.apache.kafka.clients.producer.{KafkaProducer, ProducerRecord}
 import java.util.Properties
 // src: https://blog.allegro.tech/2015/08/spark-kafka-integration.html
 
+// Class to produce date from spark to kafka topic
 class KafkaSink(createProducer: () => KafkaProducer[String, String]) extends Serializable {
 
   lazy val producer = createProducer()
